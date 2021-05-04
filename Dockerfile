@@ -17,7 +17,7 @@ RUN apt-get update \
 COPY requirements.txt requirements.txt
 COPY requirements.R requirements.R
 
-RUN pip3 install requirements.txt
+RUN pip3 install -r requirements.txt
 RUN Rscript requirements.R
 
 COPY . ./main
