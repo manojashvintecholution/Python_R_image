@@ -1,2 +1,2 @@
 # mcsrv
-minecraft docker container Demo from https://www.youtube.com/watch?v=SzzwFauxK98
+minecraft docker container Techtalk series 10->Demo from https://www.youtube.com/watch?v=SzzwFauxK98
