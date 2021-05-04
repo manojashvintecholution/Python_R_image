@@ -1,0 +1,9 @@
+typing
+uvicorn
+fastapi
+joblib
+pandas
+numpy
+datetime
+boto3
+urllib3
