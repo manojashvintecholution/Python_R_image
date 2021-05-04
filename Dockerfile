@@ -6,7 +6,7 @@ FROM python
 
 LABEL maintainer    = "Manoj Ashvin Jayaraj"  \
       name          ="Python and R combo"  \
-      version       = "0.2"
+      version       = "1.0"
 
 WORKDIR /main
 
