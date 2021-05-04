@@ -12,9 +12,9 @@ WORKDIR /main
 
 RUN apt-get update \
     && apt-get -y install r-base \
-    && apt -y install python3-pip
+    && apt -y install python3-pip   
 
-RUN pip3 install pandas
+RUN pip3 install requirements.txt
 
 RUN Rscript requirements.R
 
