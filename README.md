@@ -1,2 +1,4 @@
-# mcsrv
-minecraft docker container Techtalk series 10->Demo from https://www.youtube.com/watch?v=SzzwFauxK98
+# Python and R image
+
+
+A docker demo to run Python and r scripts
