@@ -1,5 +1,9 @@
 FROM python
 
+#RUN virtualenv /Python-r
+
+#ENV PATH="/Python-r/bin:$PATH"
+
 LABEL maintainer    = "Manoj Ashvin Jayaraj"  \
       name          ="Python and R combo"  \
       version       = "0.1"
@@ -12,7 +16,7 @@ RUN apt-get update \
 
 RUN pip3 install pandas
 
-RUN Rscript ./main/requirements.R
+RUN Rscript requirements.R
 
 COPY . ./main
 
