@@ -14,8 +14,10 @@ RUN apt-get update \
     && apt-get -y install r-base \
     && apt -y install python3-pip   
 
-RUN pip3 install requirements.txt
+COPY requirements.txt requirements.txt
+COPY requirements.R requirements.R
 
+RUN pip3 install requirements.txt
 RUN Rscript requirements.R
 
 COPY . ./main
